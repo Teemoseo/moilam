@@ -51,7 +51,20 @@
     .btn{display:inline-block;padding:8px 12px;border-radius:8px;text-decoration:none;background:var(--accent);color:#fff}
     .meta{font-size:0.9rem;color:#666}
     code{background:#eef2ff;padding:2px 6px;border-radius:6px}
-  </style>
+  </style> @keyframes flame {
+  0% { text-shadow: 0 0 5px #ff4500, 0 0 10px #ff8c00, 0 0 20px #ff0000; }
+  50% { text-shadow: 0 0 15px #ff6347, 0 0 25px #ff8c00, 0 0 35px #ff0000; }
+  100% { text-shadow: 0 0 5px #ff4500, 0 0 10px #ff8c00, 0 0 20px #ff0000; }
+}
+
+.fire-text {
+  color: #ff4500;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  animation: flame 1.5s infinite alternate;
+}
+
 </head>
 <body style="background:#f8f9fa; text-align:center; margin-top:20px;">
 
